@@ -46,7 +46,7 @@ abstract class AppAlerts {
                   ),
                 ),
                 actions: <Widget>[
-                  FlatButton(
+                  ElevatedButton(
                     child: Text('Okay', style: TextStyles.body),
                     onPressed: () => Navigator.of(context).pop(),
                   )
